@@ -1,6 +1,4 @@
 # Telecom-Churn-Prediction
-# User_Churn_Prediction
-
 **Results**:
 Please check out the jupyter notebook of the project [here](https://github.com/hudrizzle/User_Churn_Predictions/blob/master/User_Churn_Prediction.ipynb). If you experience loading problems (as it is a big file), please take a look of a markdown copy of the project [here](https://github.com/hudrizzle/User_Churn_Predictions/blob/master/results/User_Churn_Prediction.md)
 
