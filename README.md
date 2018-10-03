@@ -10,7 +10,7 @@ In this project, I used supervised learning models to identify cell phone servic
 - Data Source: https://www.sgi.com/tech/mlc/db/churn.all  
 - Data info: https://www.sgi.com/tech/mlc/db/churn.names
 
-I compared 11 of the most popular classifiers and evaluated their performance using a stratified K-fold cross validation procedure. I selected 6 classifiers with good cross validation scores covering a wide variety of types (e.g., tree-based, regression). I then performed hyper-parameter tuning on these models. I examined the learning curves and confusion matrices of different classifiers and I found that the XGBoost has a AUROC score of 0.91 and better generalizes the prediction without over-fitting the training data. 
+I evaluated 4 popular classifiers using 4 different datasets and compared their performance using a stratified K-fold cross validation procedure. I examined the learning curves and confusion matrices of different classifiers and I found that the Random Forest has a AUROC score of 0.91 and better generalizes the prediction without over-fitting the training data. 
 
 Furthermore, I derived the feature importance from logistic regression and random forest classifiers and I noticed that these two classifiers have different top features according to the relative importance. It means that their predictions are not based on the same features. Nevertheless, they share some common important features for the classification, e.g., day/night call charges. 
 
